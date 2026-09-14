@@ -78,8 +78,12 @@ class DatabaseSeeder extends Seeder
 
     private function seedUser(string $role, string $emailKey, string $passwordKey, bool $notificationsEnabled): ?User
     {
-        $email = env($emailKey);
-        $password = env($passwordKey);
+        $email = env($emailKey, $role === 'personal'
+            ? 'personal@univalle.edu'
+            : 'estudiante@univalle.edu');
+        $password = env($passwordKey, $role === 'personal'
+            ? 'personal123'
+            : 'estudiante123');
 
         if (! $email || ! $password) {
             return null;

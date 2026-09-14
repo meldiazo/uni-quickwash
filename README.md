@@ -7,6 +7,30 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+# Univalle QuickWash
+
+Sistema web para gestionar reservas de máquinas de lavandería de Univalle.
+
+## Credenciales de prueba
+
+### Personal
+
+```text
+Email: personal@univalle.edu
+Password: personal123
+```
+
+### Estudiante
+
+```text
+Email: estudiante@univalle.edu
+Password: estudiante123
+```
+
+## Aplicación desplegada
+
+URL de Render: pendiente de configurar.
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
